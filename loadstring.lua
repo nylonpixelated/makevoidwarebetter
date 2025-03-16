@@ -1,2 +1,2 @@
 shared.RiseMode = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nylonpixelated/makevoidwarebetter/refs/heads/main/NewMainScript.lua", true))()
