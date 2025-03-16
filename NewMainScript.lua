@@ -272,7 +272,7 @@ local function install_profiles(num)
     local httpservice = game:GetService('HttpService')
     local guiprofiles = {}
     local profilesfetched
-    local repoOwner = RiseMode and "VapeVoidware/RiseProfiles" or "Erchobg/VoidwareProfiles"
+    local repoOwner = RiseMode and "nylonpixelated/RiseProfiles" or "nylonpixelated/VoidwareProfiles"
     local function vapeGithubRequest(scripturl)
         if not isfile(baseDirectory..scripturl) then
             local suc, res = pcall(function() return game:HttpGet('https://raw.githubusercontent.com/'..repoOwner..'/main/'..scripturl, true) end)
